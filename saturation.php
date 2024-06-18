@@ -55,3 +55,6 @@ $scheduler->call(function () use ($cpuLoadMetric, $memoryUsageMetric) {
     $cpuLoadMetric->set(['host' => gethostname()], $loadAverage);
     $memoryUsageMetric->set(['host' => gethostname()], $memoryUsage);
 })->everyMinute();
+
+
+// consider redis instead of APC

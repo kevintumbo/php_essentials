@@ -43,3 +43,5 @@ class ResponseTimeMiddleware
 }
 
 // php artisan make:middleware ResponseTimeMiddleware
+
+// consider redis instead of APC

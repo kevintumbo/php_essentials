@@ -37,6 +37,8 @@ Route::get('/metrics', function () use ($registry) {
 });
 
 
-<!-- http_request_duration_seconds is a histogram metric that tracks HTTP request durations.
-The /metrics route exposes Prometheus-compatible metrics.
-Ensure Prometheus is configured to scrape this endpoint (/metrics) to collect and store these metrics. -->
+// http_request_duration_seconds is a histogram metric that tracks HTTP request durations.
+// The /metrics route exposes Prometheus-compatible metrics.
+// Ensure Prometheus is configured to scrape this endpoint (/metrics) to collect and store these metrics.
+
+// consider redis instead of APC

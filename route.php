@@ -17,3 +17,5 @@ Route::get('/metrics', function () {
 //     // Other middleware entries
 //     \App\Http\Middleware\ResponseTimeMiddleware::class,
 // ];
+
+// consider redis instead of APC

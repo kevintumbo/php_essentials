@@ -45,3 +45,5 @@ class TrafficMiddleware
 //     // Other middleware entries
 //     \App\Http\Middleware\TrafficMiddleware::class,
 // ];
+
+// consider redis instead of APC

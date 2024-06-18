@@ -36,3 +36,5 @@ class ThroughputMiddleware
 }
 
 // php artisan make:middleware ThroughputMiddleware
+
+// consider redis instead of APC
