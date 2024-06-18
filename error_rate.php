@@ -50,5 +50,6 @@ app('router')->middleware('metrics')->group(function () use ($httpErrorCounter) 
         'App\Exceptions\Handler'
     );
     app('router')->middleware('metrics');
-    
-   
+
+
+    // consider redis instead of APC
